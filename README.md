@@ -28,13 +28,14 @@ El objetivo es demostrar: **API REST, prompt (System Role), parámetros y métri
 ---
 
 ## 📁 Estructura del proyecto (ejemplo)
-```txt
+
 microservicio-ia-python/
 ├─ main.py
 ├─ requirements.txt
 ├─ README.md
 ├─ .gitignore
-└─ venv/                  (no se sube a GitHub)
+└─ venv/
+      
 ⚙️ Instalación y ejecución
 1) Crear y activar entorno virtual
 Windows (PowerShell):
