@@ -45,3 +45,42 @@ microservicio-ia-python/
 ```bash
 python -m venv venv
 venv\Scripts\activate
+
+```
+## 2) Instalar dependencias
+```txt
+pip install -r requirements.txt
+```
+3) Ejecutar el servidor
+```txt
+uvicorn main:app --reload
+```
+4) Abrir documentación (Swagger)
+```txt
+http://127.0.0.1:8000/docs
+```
+🔌 Uso del API
+Endpoint
+```
+POST /chat
+```
+📥 Request (JSON)
+```
+{
+  "mensaje": "¿Cómo organizo mis tareas en MiDesk?"
+}
+```
+📤 Response (JSON) — ejemplo
+```
+{
+  "respuesta": "Para organizar tus tareas en MiDesk, crea listas por materia...",
+  "parametros_modelo": {
+    "temperature": 0.3,
+    "max_tokens": 300
+  },
+  "metricas": {
+    "tiempo_respuesta_ms": 12,
+    "tokens_totales_aprox": 28
+  }
+```
+}
