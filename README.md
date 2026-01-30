@@ -35,3 +35,13 @@ microservicio-ia-python/
 ├─ README.md
 ├─ .gitignore
 └─ venv/
+```
+---
+## ⚙️ Instalación y ejecución
+
+### 1) Crear y activar entorno virtual
+
+#### Windows (PowerShell)
+```bash
+python -m venv venv
+venv\Scripts\activate
