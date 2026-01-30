@@ -47,15 +47,15 @@ python -m venv venv
 venv\Scripts\activate
 
 ```
-## 2) Instalar dependencias
+### 2) Instalar dependencias
 ```txt
 pip install -r requirements.txt
 ```
-3) Ejecutar el servidor
+### 3) Ejecutar el servidor
 ```txt
 uvicorn main:app --reload
 ```
-4) Abrir documentación (Swagger)
+### 4) Abrir documentación (Swagger)
 ```txt
 http://127.0.0.1:8000/docs
 ```
