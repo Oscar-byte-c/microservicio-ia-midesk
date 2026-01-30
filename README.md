@@ -64,13 +64,13 @@ Endpoint
 ```
 POST /chat
 ```
-📥 Request (JSON)
+### 📥 Request (JSON)
 ```
 {
   "mensaje": "¿Cómo organizo mis tareas en MiDesk?"
 }
 ```
-📤 Response (JSON) — ejemplo
+### 📤 Response (JSON) — ejemplo
 ```
 {
   "respuesta": "Para organizar tus tareas en MiDesk, crea listas por materia...",
@@ -83,4 +83,4 @@ POST /chat
     "tokens_totales_aprox": 28
   }
 ```
-}
+
