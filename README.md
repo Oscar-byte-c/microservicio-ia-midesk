@@ -1,14 +1,37 @@
-# Microservicio IA - MiDesk
+# Microservicio IA - MiDesk 🚀
 
-Proyecto académico que implementa un microservicio de IA simulado para el sistema MiDesk.
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-API%20REST-success)
+![Uvicorn](https://img.shields.io/badge/Uvicorn-ASGI-informational)
+![Status](https://img.shields.io/badge/Status-Proyecto%20Acad%C3%A9mico-yellow)
 
-## Tecnologías
-- Python
-- FastAPI
-- Uvicorn
+Microservicio en **Python + FastAPI** que expone un endpoint REST para un asistente tipo **MiDesk**.  
+El objetivo es demostrar: **API REST, prompt (System Role), parámetros y métricas**.
 
-## Ejecución
-```bash
-pip install -r requirements.txt
-uvicorn main:app --reload
-git add README.md
+---
+
+## ✨ Características
+- Endpoint **POST `/chat`** que recibe y devuelve **JSON**
+- **System Prompt** (rol del asistente) para mantener el contexto MiDesk
+- Parámetros de generación (ej. `temperature`, `max_tokens`)
+- Métricas básicas (ej. **tiempo de respuesta** y/o conteo aproximado de tokens/palabras)
+- Documentación automática con Swagger: **`/docs`**
+
+---
+
+## 🧰 Tecnologías
+- **Python 3.10+**
+- **FastAPI**
+- **Uvicorn**
+- (Opcional) **python-dotenv** para variables de entorno
+
+---
+
+## 📁 Estructura del proyecto (ejemplo)
+```txt
+microservicio-ia-python/
+├─ main.py
+├─ requirements.txt
+├─ README.md
+├─ .gitignore
+└─ venv/                  (no se sube a GitHub)
