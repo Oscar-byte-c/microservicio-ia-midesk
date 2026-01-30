@@ -59,7 +59,7 @@ uvicorn main:app --reload
 ```txt
 http://127.0.0.1:8000/docs
 ```
-🔌 Uso del API
+## 🔌 Uso del API
 Endpoint
 ```
 POST /chat
